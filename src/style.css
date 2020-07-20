@@ -1,0 +1,18 @@
+h1,h2,h3,h4,h5,h6{
+  color: aliceblue;
+}
+
+.title{
+  font-size: 2em;
+}
+
+.index{
+  font-size: 1.5em;
+}
+.emmet{
+  background-color: rgb(54, 69, 73);
+}
+
+.sourceCode{
+  background-color: rgb(54, 69, 73);
+}

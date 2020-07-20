@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1 class="title" id="emmet-cheatsheet">Emmet CheatSheet</h4>
+    <h1 class="index" id="child">child : &gt;</h5>
+    <p><code class="emmet">div&gt;div&gt;p</code></p>
+    <div class="sourceCode" id="cb1">
+      <pre class="sourceCode html"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">&lt;div&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>  <span class="kw">&lt;div&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a>    <span class="kw">&lt;p&gt;&lt;/p&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>  <span class="kw">&lt;/div&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="kw">&lt;/div&gt;</span></span></code></pre>
+    </div>
+    <h1 class="index" id="sibling">Sibling: +</h5>
+    <p><code class="emmet">div+p+div</code></p>
+    <div class="sourceCode" id="cb2">
+      <pre
+        class="sourceCode html"
+      ><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">&lt;div&gt;&lt;/div&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="kw">&lt;p&gt;&lt;/p&gt;</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="kw">&lt;div&gt;&lt;/div&gt;</span></span></code></pre>
+    </div>
+    <h1 class="index" id="climb-up">Climb-up: ^</h5>
+    <p><code class="emmet">div&gt;div&gt;p^div</code></p>
+    <div class="sourceCode" id="cb3">
+      <pre
+        class="sourceCode html"
+      ><code class="sourceCode html"><span id="cb3-1"><a href="#cb3-1"></a><span class="kw">&lt;div&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a>  <span class="kw">&lt;div&gt;</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a>    <span class="kw">&lt;p&gt;&lt;/p&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a>  <span class="kw">&lt;/div&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a>  <span class="kw">&lt;div&gt;&lt;/div&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="kw">&lt;/div&gt;</span></span></code></pre>
+    </div>
+    <h1 class="index" id="multiplication">Multiplication: *</h5>
+    <p><code class="emmet">ul&gt;li*3</code></p>
+    <div class="sourceCode" id="cb4">
+      <pre
+        class="sourceCode html"
+      ><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">&lt;ul&gt;</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a>  <span class="kw">&lt;li&gt;&lt;/li&gt;</span></span>
+<span id="cb4-3"><a href="#cb4-3"></a>  <span class="kw">&lt;li&gt;&lt;/li&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a>  <span class="kw">&lt;li&gt;&lt;/li&gt;</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="kw">&lt;/ul&gt;</span></span></code></pre>
+    </div>
+    <h1 class="index" id="id-class-.">id &amp; class : # &amp; .</h5>
+    <p><code class="emmet">#hoge.hoge&gt;p#foo.bar</code></p>
+    <div class="sourceCode" id="cb5">
+      <pre
+        class="sourceCode html"
+      ><code class="sourceCode html"><span id="cb5-1"><a href="#cb5-1"></a><span class="kw">&lt;div</span><span class="ot"> id=</span><span class="st">&quot;hoge&quot;</span><span class="ot"> class=</span><span class="st">&quot;hoge&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a>  <span class="kw">&lt;p</span><span class="ot"> id=</span><span class="st">&quot;foo&quot;</span><span class="ot"> class=</span><span class="st">&quot;bar&quot;</span><span class="kw">&gt;&lt;/p&gt;</span></span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="kw">&lt;/div&gt;</span></span></code></pre>
+    </div>
+    <h1 class="index" id="custom-attributes">Custom attributes: []</h5>
+    <p><code class="emmet">a[href="http://Hello.world"]</code></p>
+    <div class="sourceCode" id="cb6">
+      <pre
+        class="sourceCode html"
+      ><code class="sourceCode html"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;http://Hello.world&quot;</span><span class="kw">&gt;&lt;/a&gt;</span></span></code></pre>
+    </div>
+    <h1 class="index" id="text">Text: {}</h5>
+    <p><code class="emmet">a[href="http://Hello.world"]{next world}</code></p>
+    <div class="sourceCode" id="cb7">
+      <pre
+        class="sourceCode html"
+      ><code class="sourceCode html"><span id="cb7-1"><a href="#cb7-1"></a><span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;http://Hello.world&quot;</span><span class="kw">&gt;</span>next world<span class="kw">&lt;/a&gt;</span></span></code></pre>
+    </div>
+  </body>
+</html>
